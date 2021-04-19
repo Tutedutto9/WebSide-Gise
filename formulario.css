@@ -1,0 +1,87 @@
+/* CSS files add styling rules to your content */
+
+body {
+    background-image: url(/img/rsz_bofu-shaw-ttkpbuzta-m-unsplash_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Noto Sans JP', sans-serif;
+  }
+
+  body{
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+  }
+  
+  h1,h2,h3,h4,h5{
+    font-family: 'Fjalla One', sans-serif;
+  }
+
+form{
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 225px;
+  border-radius: 7px;
+}
+
+h3{
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+}
+
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#button{
+  background: #31384A;
+  color: #fff;
+  padding: 20px;
+}
+
+#button:hover{
+  cursor: pointer;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 225px;
+  border-radius: 7px;
+}
+
+p{
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  width: 450px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+
