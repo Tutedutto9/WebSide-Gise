@@ -277,6 +277,9 @@ body {
     .nav a{
       padding: 40px;
     }
+    .nav-menu-a{
+      left: 0;
+    }
     .nav-menu-link:hover{
       background: none;
       color: #a7c231;
@@ -355,11 +358,11 @@ body {
   }
   
   .card-title{
-    min-height:3rem;
+    min-height:4rem;
   }
   
   .card-text{
-    min-height:10rem;
+    min-height:8.5rem;
   }
   
   
@@ -433,4 +436,24 @@ body {
     100%{
       transform: translateX(0);
     }
+  }
+
+
+  footer {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+  }
+  
+  footer .copyright {
+    margin-bottom: .3rem;
+  }
+  
+  footer .credits {
+    margin-bottom: 0;
+  }
+  
+  footer .credits a {
+    color: #fff;
   }
