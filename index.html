@@ -17,33 +17,43 @@
       crossorigin="anonymous"
     />
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/773cdf2231.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
   </head>
   <body>
     <header class="bg_animate">
       <div class="header_nav">
         <div class="contenedor">
           <h1 href="index.html">Gisela Borrelo</h1>
-          <nav>
-            <a href="index.html">Inicio</a>
-            <a href="#Especialidades">Especialidades</a>
-            <a href="#mapa">Ubicacion</a>
-            <a href="AcercaDe.html">Sobre mi</a>
-            <a href="formulario.html">Contacto</a>
+          <nav class="nav">
+            <ul class="nav-menu">
+              <a href="index.html" class="nav-menu-link">Inicio</a>
+              <a href="#Especialidades" class="nav-menu-link">Especialidades</a>
+              <a href="#SobreMi" class="nav-menu-link">Sobre Mi</a>
+              <a href="#mapa" class="nav-menu-link">Ubicacion</a>
+              <a href="formulario.html" class="nav-menu-link">Contacto</a>
+            </ul>
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
           </nav>
         </div>
       </div>
 
-      <section class="banner contenedor">
+      <section id="banner-container" class="banner contenedor">
         
         <secrion class="banner_title">
-          <h2>Cuida tus dientes <br> mejor que nunca!</h2>
-          <a href="AcercaDe.html" class="llamanos btn">Conoce mas!</a>
-        </secrion>
-        <div class="banner_img">
-          <img src="img/rsz_1305399.png" alt="">
-        </div>
-
+           <h2>Cuida tus dientes <br> mejor que nunca!</h2>
+           <a href="AcercaDe.html" class="llamanos btn">Conoce mas!</a>
+         </secrion>
+        
+        
+         <div class="banner_img">
+           <img src="img/rsz_1305399.png"  alt="">
+         </div>
+        
+      </div>
       </section>
 
       <div class="burbujas">
@@ -77,46 +87,31 @@
             <div class="card">
               <img src="img/rsz_1caroline-lm-jibssizvpza-unsplash.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Arreglos</h5>
+                <h5 class="card-title">Odontologia General</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Operatorias, limpieza, protesis, extracciones.
                 </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 mt-2">
             <div class="card">
-              <img src="img/2.jpg" class="card-img-top" alt="..." />
+              <img src="img/6.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Consultas</h5>
+                <h5 class="card-title">Odontopediatria</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Motivación, prevensión, aparatología.
                 </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 mt-2">
-            <div class="card">
-              <img src="img/3.jpg.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Implantes</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-sm-6 col-md-4 mt-3">
             <div class="card">
               <img src="img/4.jpg.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Estetica</h5>
+                <h5 class="card-title">Estetica Dental</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Carillas, blanquiamientos, tratamientos en circonio y disilicato, piercing dental.
                 </p>
               </div>
             </div>
@@ -125,22 +120,31 @@
             <div class="card">
               <img src="img/5.jpg.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Ortodoncia</h5>
+                <h5 class="card-title">Ortodoncia niños y adultos</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Apiñamiento dentario, problemas de mordida.
                 </p>
               </div>
             </div>
           </div>
           <div class="col-12 col-sm-6 col-md-4 mt-3">
             <div class="card">
-              <img src="img/rsz_candid-fduefsgoo8e-unsplash.jpg" class="card-img-top" alt="..." />
+              <img src="img/3.jpg.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">Placas de relajacion</h5>
+                <h5 class="card-title">Cirujia e implantes</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  Reposición de piezas dentales con implantes, y protesis fijas o sobre dentaduras, 
+                  terceros morales en retención.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 mt-3">
+            <div class="card">
+              <img src="img/2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Placas miorelajantes y protectores bucales deportivos</h5>
+                <p class="card-text">
                 </p>
               </div>
             </div>
@@ -148,19 +152,81 @@
         </div>
       </div>
     </section>
+    <section id="SobreMi">
+      <div class="title-box text-center pb-3 pt-4">
+        <h4 class="title-a">
+          Sobre Mi
+        </h4>
+        <!-- <p class="subtitle-a">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        </p> -->
+        <div class="line-mf"></div>
+      </div>
+      <div class="container mt-5 mb-5">
+        <img 
+             src="https://cdn.glitch.com/47e53e89-5a19-4fca-825c-6bdb9b794beb%2Frsz_bofu-shaw-ttkpbuzta-m-unsplash.jpg?v=1614265325830" 
+             height="250px"
+             class="float-end ms-2"
+             />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et
+          placerat nisi. Nam commodo laoreet lectus, vel tristique est fermentum
+          at. Vivamus congue nisl metus, et vulputate arcu laoreet eu. Nulla
+          varius scelerisque vestibulum. Sed vel lacus vitae ipsum cursus
+          ultricies. Vestibulum et lacus lobortis, rutrum nunc eget, posuere
+          nisi. Sed in libero sit amet sem fermentum hendrerit quis quis sem.
+          Sed a pellentesque lorem. Etiam auctor arcu sit amet magna mollis
+          eleifend. Vivamus id vulputate metus, in bibendum leo. Nullam sem
+          lectus, pellentesque eget dignissim et, ornare sed enim. Vestibulum
+          nec ante consequat, euismod lacus ac, ullamcorper orci. Praesent sit
+          amet dapibus sapien. Curabitur viverra enim at odio commodo dignissim.
+          Mauris lorem nisl, egestas et faucibus in, fermentum id ante.
+        </p>
+        <p>
+          Sed lacinia elit quis nulla venenatis, sit amet varius urna pretium.
+          Mauris et nunc aliquet, auctor elit quis, ultrices dui. Etiam bibendum
+          ornare massa ut porttitor. Suspendisse ultricies, elit at pharetra
+          semper, erat est iaculis sapien, vitae imperdiet felis libero ac orci.
+          Etiam at felis nec augue suscipit feugiat. Sed et lacinia diam, sed
+          efficitur odio. Nullam porta non odio eget vestibulum. Cras eget
+          semper purus. Nam nisl sapien, elementum at sagittis euismod, feugiat
+          eget purus. Duis facilisis massa sit amet orci volutpat varius.
+          Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam
+          ullamcorper purus orci, ac convallis leo tristique vel.
+        </p>
+      </div>
+    </section>
+    <section>
+      <div class="container mt-5 mb-5 text-center">
+        <h3>
+          Unas imagenes de lo que es nuestro local
+        </h3>
+        <div class="line-mf"></div>
+        <div class="slider">
+          <div class="slider-container">
+             <div class="image-container" style="background-image: url(/img/rsz_1austin-distel-vvacrva56fc-unsplash.jpg);"></div>
+              <div class="image-container" style="background-image: url(/img/rsz_ani-kolleshi-7jjnj-qa9fy-unsplash.jpg);"></div>
+              <div class="image-container" style="background-image: url(/img/rsz_bofu-shaw-ttkpbuzta-m-unsplash_1.jpg);"></div>
+              <div class="image-container" style="background-image: url(/img/rsz_content-pixie-psie8bkub0w-unsplash.jpg);"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="bg-image">
-      <div class="container mt-5 mb-5" id="mapa">
+      <div class="container mt-5 mb-5 text-center" id="mapa">
         <h4>
           Encontranos Aqui:
         </h4>
+        <div class="line-mf mb-2"></div>
         <p>
           Belgrano 2182, San Francisco, Córdoba
         </p>
         <div class="responsive-iframe">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.5406559247276!2d-62.09186098431225!3d-31.42677950390066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95cb283d786b4027%3A0x8f76e36ef66e5a1d!2sBelgrano%202182%2C%20San%20Francisco%2C%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1614785906713!5m2!1ses!2sar"
-            width="600"
-            height="450"
+            width="100"
+            height="50"
             style="border:0;"
             allowfullscreen=""
             loading="lazy"
