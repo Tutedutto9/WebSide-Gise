@@ -70,6 +70,7 @@ body {
   .nav-menu-link:hover {
     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
     transition: 0.5;
+    border-radius: 20px;
   }
 
   .banner{
@@ -267,6 +268,7 @@ body {
       top: 80px;
       width: 100%;
       padding: 20px 0;
+      border-radius: 40px;
 
       height: calc(100% - 80px);
       overflow-y: auto;
@@ -323,6 +325,7 @@ body {
     }
   }
 
+
   @media (max-width: 410px){
     .banner_title h2{
       padding-top: 100px;
@@ -334,7 +337,6 @@ body {
       padding-right: 30px;
     }
   }
-
 
   .cover {
     height: 410px;
@@ -458,3 +460,4 @@ body {
   footer .credits a {
     color: #fff;
   }
+

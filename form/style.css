@@ -1,0 +1,47 @@
+* {
+    
+    font-size: 100;
+}
+
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    background: linear-gradient(to right, #1f4037, #99f2c8);
+
+}
+
+h2,h3,h4,h5,h6{
+    color: #fff;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    margin-top: 100px;
+    background-color: rgba(41, 41, 41, 0.604);
+}
+
+.form_input{
+    margin: 10px;
+    align-items: center;
+}
+
+.form_group{
+    margin: 40px;
+}
+
+.input_group{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-control{
+    border: none;
+}
+
+.form_input input{
+    padding: 7px;
+}
