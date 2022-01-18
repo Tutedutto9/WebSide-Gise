@@ -3,6 +3,7 @@
 body {
     margin: 0em;
     font-family: 'Noto Sans JP', sans-serif;
+
   }
   
   body {
@@ -447,6 +448,7 @@ body {
     color: #fff;
     padding: 25px 0;
     background: linear-gradient(to right, #1f4037, #99f2c8);
+    margin-top: 0px;
   }
   
   footer .copyright {

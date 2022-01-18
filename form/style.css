@@ -1,23 +1,53 @@
 * {
-    
     font-size: 100;
 }
 
 body{
     font-family: 'STIX Two Math', serif;
-    background: linear-gradient(to right, #1f4037, #99f2c8);
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); 
+    width: 98%;
+}
 
-    overflow-y: hidden;
-    overflow-x: hidden;
+.contenedor::-webkit-scrollbar{
+    color: black;
+    overflow-x: none;
+    
 }
 
 h1{
-    color: #fff;
+    color: black;
     align-items: center;
     font-size: 70px;
 }
 
 h2,h3,h4,h5,h6{
+    color: #fff;
+}
+
+.button-back {
+   margin-top: 15px;
+   margin-left: 20px;
+   width: 100%;
+
+}
+
+.button-back a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.button-back a{
+    text-decoration: none;
+}
+
+.button-back .fas{
+    font-size: 30px;
     color: #fff;
 }
 
@@ -29,8 +59,9 @@ h2,h3,h4,h5,h6{
 
 .form{
     margin-top: 50px;
-    background-color: rgba(75, 75, 75, 0.7);
+    background-color: #fff;
     z-index: 1;
+    border-radius: 15px;
 }
 
 .form_input{
@@ -47,8 +78,13 @@ h2,h3,h4,h5,h6{
     justify-content: flex-end;
 }
 
-.form-control{
+.form_input input{
+    display: block;
+    width: 100%;
+    outline: none;
+    background: none;
     border: none;
+    border-bottom: 1px solid black;
 }
 
 .form_input input{
@@ -56,11 +92,14 @@ h2,h3,h4,h5,h6{
 }
 
 .form_input button{
-    width: 100%;
+    width: 50%;
     border: none;
     padding: 7px;
-
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(58, 56, 56);
 }
+
 
   @media (max-width: 767px){
     .input_group{

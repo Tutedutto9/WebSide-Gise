@@ -16,6 +16,7 @@
       integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
       crossorigin="anonymous"
     />
+    <script src="https://kit.fontawesome.com/773cdf2231.js" crossorigin="anonymous"></script>
     
     <link rel="stylesheet" href="/form/style.css" />
     <script src="https://kit.fontawesome.com/773cdf2231.js" crossorigin="anonymous"></script>
@@ -24,6 +25,9 @@
 </html>
 <body>
 
+    <div class="button-back">
+      <a href="index.html" class="fas fa-home"></a>
+    </div>
     
   <h1 class="text-center mt-5">
     CONTACTO
@@ -35,21 +39,15 @@
         <div class="form_group">
           
           <div class="input_group">
-            <div class="col-md-4 mb-3">
+            <div class="col-md-6 mb-3">
               <div class="form_input">
-                <input type="text" name="nombre" class="form-control" placeholder="Nombre Y Apellido" required>
-              </div>
-            </div>
-            
-            <div class="col-md-4 mb-3">
-              <div class="form_input">
-                <input type="number" class="form-control" name="D.N.I"  placeholder="D.N.I" required>
+                <input type="text" name="nombre" placeholder="Nombre Y Apellido" required>
               </div>
             </div>
 
-            <div class="col-md-4 mb-3">
+            <div class="col-md-6 mb-3">
               <div class="form_input">
-                <input type="date" class="form-control" name="dd/mm/año" placeholder="Fecha de Nacimiento - dd/mm/año">
+                <input type="date" name="dd/mm/año" placeholder="Fecha de Nacimiento - dd/mm/año">
               </div>
             </div>
           </div>
@@ -57,13 +55,13 @@
           <div class="input_group">
             <div class="col-md-6 mb-3">
               <div class="form_input">
-                <input type="email" class="form-control" name="correo" placeholder="Tu Email" required>
+                <input type="number" name="D.N.I"  placeholder="D.N.I" required>
               </div>
             </div>
 
             <div class="col-md-6 mb-3">
               <div class="form_input">
-                <input type="number" class="form-control" name="telefono" placeholder="Numero de telefono">
+                <input type="number" name="telefono" placeholder="Numero de telefono">
               </div>
             </div>
           </div>
@@ -71,45 +69,45 @@
           <div class="input_group">
             <div class="col-md-3 mb-3">
               <div class="form_input">
-                <input type="text" name="domicilio" class="form-control"  placeholder="Domicilio" required>
+                <input type="text" name="domicilio"  placeholder="Domicilio" required>
               </div>
             </div>
 
             <div class="col-md-6 mb-3">
               <div class="form_input">
-                <input type="Localidad" class="form-control" name="localidad" placeholder="Localidad" required>
+                <input type="Localidad" name="localidad" placeholder="Localidad" required>
               </div>
             </div>
 
             <div class="col-md-3 mb-3">
               <div class="form_input">
-                <input type="number" class="form-control" name="codpostal"  placeholder="Codigo Postal">
+                <input type="number" name="codpostal"  placeholder="Codigo Postal">
               </div>
             </div>
           </div>
           
           <div class="input_group">
-            <div class="col-md-5 mb-3">
+            <div class="col-md-4 mb-3">
               <div class="form_input">
-                <input type="text" name="obrasocial" class="form-control" placeholder="Obra Social" required>
-              </div>
-            </div>
-
-            <div class="col-md-3 mb-3">
-              <div class="form_input">
-                <input type="text" class="form-control" name="plan" placeholder="Plan de la Obra Social" required>
+                <input type="text" name="obrasocial" placeholder="Obra Social" required>
               </div>
             </div>
 
             <div class="col-md-4 mb-3">
               <div class="form_input">
-                <input type="number" class="form-control" name="telefono" placeholder="Nª De Afiliado" required>
+                <input type="text" name="plan" placeholder="Plan de la Obra Social" required>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-3">
+              <div class="form_input">
+                <input type="number" name="telefono" placeholder="Nª De Afiliado" required>
               </div>
             </div>
           </div>
 
           <div class="input_group">
-            <div class="col-md-12">
+            <div class="col-md-8">
               <div class="form_input">
                 <button type="submit">Enviar</button>
               </div>
