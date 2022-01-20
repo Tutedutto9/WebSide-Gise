@@ -78,6 +78,12 @@ body {
     color: #fff;
   }
 
+  .header_nav nav #nav-menu-a-contacto{
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); 
+    color: #fff;
+    border-radius: 20px;
+  }
+
   .banner{
     display: flex;
     justify-content: space-between;
@@ -258,10 +264,7 @@ body {
     z-index: 1;
   }
 
-  #nav-menu-a-contacto{
-    background-color: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 
-  }
 
   @media (max-width: 985px){
     .nav-toggle{
