@@ -4,8 +4,8 @@
 
 body{
     font-family: 'STIX Two Math', serif;
-    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); 
-    width: 98%;
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
 }
 
 .contenedor::-webkit-scrollbar{
@@ -27,7 +27,6 @@ h2,h3,h4,h5,h6{
 .button-back {
    margin-top: 15px;
    margin-left: 20px;
-   width: 100%;
 
 }
 
