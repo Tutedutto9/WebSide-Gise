@@ -252,7 +252,7 @@ body {
   /* NAVEGACION MOBILE */
 
   .nav-toggle{
-    color: #fff;
+    color: #000;
     background: none;
     border: none;
     font-size: 32px;
@@ -296,15 +296,26 @@ body {
     .nav-menu-a{
       left: 0;
     }
-    .nav-menu-link:hover{
+
+    .header_nav nav a{
+      color: #fff;
+    }
+
+    .header_nav nav a:hover{
       background: none;
       color: #a7c231;
     }
+
     .nav-menu_visible{
       left: 0;
     }
     .nav-toggle:focus:not(:focus-visible){
       outline: none;
+    }
+    .header_nav nav #nav-menu-a-contacto{
+      background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
+      color: #000;
+      border-radius: 35px;
     }
   }
 
@@ -465,10 +476,9 @@ body {
 
   footer {
     text-align: center;
-    color: #fff;
+    color: #000;
     padding: 25px 0;
-    background: linear-gradient(to right, #1f4037, #99f2c8);
-    margin-top: 0px;
+    background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea);
   }
   
   footer .copyright {
